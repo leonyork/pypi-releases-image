@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  pypi-releases:
+    image: leonyork/pypi-releases:${IMAGE_TAG}
+    build:
+      context: .
+      args:
+        - "CURL_VERSION=${CURL_VERSION}"
