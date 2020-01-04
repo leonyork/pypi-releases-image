@@ -1,4 +1,6 @@
-# Pypi releases
+# Pypi Releases Image
+
+[![Build Status](https://travis-ci.com/leonyork/pypi-releases-image.svg?branch=master)](https://travis-ci.com/leonyork/pypi-releases-image)
 
 Images for getting the release versions for pypi packages.
 
@@ -8,4 +10,4 @@ Images for getting the release versions for pypi packages.
 
 ## Test
 
-```docker run leonyork/pypi-releases curlimages/curl```
+```docker run leonyork/pypi-releases pip```
