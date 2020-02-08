@@ -10,4 +10,4 @@ then
     exit 1
 fi
 
-curl https://pypi.org/pypi/$1/json 2>/dev/null | jq -r '.releases | keys[]'
+curl https://pypi.org/pypi/$1/json 2>/dev/null | jq -r '.releases | keys[]' | sort -V
